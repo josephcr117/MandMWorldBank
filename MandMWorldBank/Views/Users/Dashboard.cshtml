@@ -1,0 +1,12 @@
+﻿@model MandMWorldBank.Models.User
+
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<h2>Welcome, @Model.Username!</h2>
+
+<h3>Your Balance: $@Model.Balance</h3>
+
+<a asp-controller="Home" asp-action="Index" class="btn btn-secondary">Back to Home</a>
+<a asp-controller="Users" asp-action="TransactionHistory" asp-route-userId="@Model.Id" class="btn btn-info">View Transaction History</a>
