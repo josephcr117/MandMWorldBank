@@ -29,3 +29,13 @@ to get started:
 Add-Migration InitialCreate
 Update-Database
 4. Run the application
+
+## Demo and Screenshots of DB
+
+### Demo
+The Demo is in the github repository named **MandMWorldBank Demo**
+
+### Screenshots
+Screenshots of the Database are named:
+- **Users DB**: This is to see that the users created with the register button are actually being saved somewhere
+- **Transaction History DB**: In this screenshot we can see all of the transfers that have been made between accounts and it will show to the corresponding account, either if money was transfered from or to a registered user.
